@@ -1,0 +1,63 @@
+.project-container {
+    background-color: white;
+    position: relative;
+    top: -50px;
+    border-radius: 0.35rem;
+
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.project-image {
+    border: #F3F2F3 solid 1px;
+    width: 160px;
+    height: 160px;
+}
+
+.skills-container {
+    background-color: #F9F9F9;
+}
+
+.skills-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.skill-item {
+    background-color: white;
+    margin: 0 10px;
+}
+
+.skill-score {
+    background-color: #B9EFF2;
+    color: #006264;
+    margin: 0 0 0 5px;
+    width: 40px;
+    height: 35px;
+}
+.blue-dashed-top-border {
+    border-top: #00D3DF dashed 3px;
+}
+
+.gray-solid-bottom-border {
+    border-bottom: lightgray solid 1px;
+}
+
+.bold-blue-text {
+    color: #00858D;
+    font-weight: bold;
+}
+
+.bid-success {
+    color: #008E3D;
+}
+
+.gray-text {
+    color: #666666;
+}
+
+.gray-bold-text {
+    color: #666666;
+    font-weight: bold;
+}
