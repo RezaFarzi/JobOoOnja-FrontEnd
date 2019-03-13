@@ -1,17 +1,8 @@
-.project-container {
-    background-color: white;
-    position: relative;
-    top: -50px;
-    border-radius: 0.35rem;
-
-    padding-top: 0;
-    padding-bottom: 0;
-}
-
 .project-image {
     border: #F3F2F3 solid 1px;
     width: 160px;
     height: 160px;
+    margin: 10px;
 }
 
 .skills-container {
@@ -21,7 +12,7 @@
 .skills-list {
     list-style: none;
     display: flex;
-    flex-direction: row-reverse;
+    direction: ltr;
 }
 
 .skill-item {
@@ -60,4 +51,12 @@
 .gray-bold-text {
     color: #666666;
     font-weight: bold;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.pad-r-50 {
+    padding-right: 50px;
 }

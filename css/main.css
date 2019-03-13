@@ -47,6 +47,19 @@ section {
 }
 
 /*
+*/
+
+.my-container {
+    background-color: white;
+    position: relative;
+    top: -50px;
+    border-radius: 0.35rem;
+
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+/*
   ========================================
   footer
   ========================================
