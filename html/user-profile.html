@@ -1,10 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+    <head>
+        <title>کاربر</title>
 
-</body>
+        <meta charset="UTF-8">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">        <link rel = "stylesheet" type = "text/css" href = "../css/normalize.css">
+        <link rel = "stylesheet" type = "text/css" href = "../css/fonts.css">
+        <link rel = "stylesheet" type = "text/css" href = "../assets/icons/font/flaticon.css">
+        <link rel = "stylesheet" type = "text/css" href = "../css/main.css">
+        <link rel = "stylesheet" type = "text/css" href = "../css/user-profile.css">
+    </head>
+
+    <body>
+        <!-- Header -->
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img class="logo" src="../assets/logo/logo%20v1.png" /></a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item"><a class="nav-link" href="user-profile.html">حساب کاربری</a></li>
+                        <li class="nav-item"><a class="nav-link" href="login.html">خروج</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <section class="blue-strip inner-shadow"></section>
+
+        <!-- body -->
+
+        <section class="container user-container ">
+
+            <section class="row">
+
+                <div class="col-2">
+                    <img class="user-image img-fluid" src="../assets/images/project-picture.png" />
+                </div>
+                <div class="user-text col">
+                    <h1>ماری جویی</h1>
+                    <p>خدای کوتاه کلید</p>
+                </div>
+
+            </section>
+
+            <section class="row">
+                <div class="col">
+                    <p>
+                        &nbsp;&nbsp;&nbsp;&nbsp;لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و
+                        با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و
+                        مجله در ستون و سطرآنچنان که لازم است. لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و
+                        با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و
+                        مجله در ستون و سطرآنچنان که لازم است.
+                    </p>
+                </div>
+            </section>
+
+            <section class="row">
+
+                <h5 class="bold-black-text col-1"> مهارت ها:</h5>
+
+                <div class="selector-container input-group col-4 shadow-sm">
+
+                    <select class="skill-list selector-list col-6">
+                        <option>--انتخاب مهارت--</option>
+                        <option>HTML</option>
+                        <option>CSS</option>
+                        <option>C#</option>
+                        <option>JavaScript</option>
+                    </select>
+
+                    <button type="button" class="selector-submit col-5">افزودن مهارت</button>
+
+                </div>
+
+            </section>
+
+            <section class="skills-container">
+
+                <ul class="skills-list">
+                    <li class="btn btn-flat skill-item shadow-sm"><div class="btn btn-flat skill-score">5</div> HTML</li>
+                    <li class="btn btn-flat skill-item shadow-sm"><div class="btn btn-flat skill-score">3</div> CSS </li>
+                    <li class="btn btn-flat skill-item shadow-sm"><div class="btn btn-flat skill-score">16</div> JavaScript</li>
+                    <li class="btn btn-flat skill-item shadow-sm"><div class="btn btn-flat skill-score">2</div> TypeScript</li>
+                </ul>
+
+            </section>
+
+        </section>
+
+        <!-- footer -->
+
+        <footer class="primary-footer">
+
+            <span>&copy; تمامی حقوق این سایت متعلق به جاب اونجا می باشد</span>
+
+        </footer>
+
+    </body>
 </html>

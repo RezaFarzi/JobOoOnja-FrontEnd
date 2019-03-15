@@ -1,0 +1,76 @@
+.user-container {
+    background-color: #F6F6F6;
+    position: relative;
+    padding-top: 0;
+    padding-bottom: 5px;
+}
+
+.user-image {
+    border: #F3F2F3 solid 10px;
+    border-radius: 1.3rem;
+    width: 100%;
+    height: auto;
+    /*top: -100px;*/
+
+    position: absolute;
+    top:-55%;
+    bottom:0;
+    left:0;
+    right:0;
+}
+
+.skills-container {
+    margin-bottom: 25px;
+}
+
+.skills-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.skill-item {
+    background-color: white;
+    margin: 0 10px;
+}
+
+.skill-score {
+    background-color: #B9EFF2;
+    color: #006264;
+    margin: 0 0 0 5px;
+    width: 40px;
+    height: 35px;
+}
+
+.bold-black-text {
+    color: rgba(39, 44, 48, 0.98);
+    font-weight: bold;
+    margin: 0 0 0 0px;
+    text-align:center;
+    padding: 5px;
+}
+
+.selector-container {
+    color: #FFFFFF;
+    border: #F3F2F3 solid 1px;
+    border-radius: 0.3rem;
+    padding: 1px;
+}
+
+.selector-list {
+    color: #000000;
+    background-color: #F9F9F9;
+    border-radius: 0.1rem;
+    text-align:center;
+    margin: 3px;
+    margin-right: 5px;
+}
+
+.selector-submit {
+    color: #FFFFFF;
+    background-color: #0099A5;
+    border-radius: 0.3rem;
+    text-align:center;
+    margin: 3px;
+    margin-right: 15px;
+}
