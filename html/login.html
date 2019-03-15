@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="../css/fonts.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="../css/main.css">
-        <link rel="stylesheet" href="../css/project.css">
+        <link rel="stylesheet" href="../css/slideshow.css">
         <link rel="stylesheet" href="../css/normalize.css">
         <link rel="stylesheet" type="text/css" href="../assets/icons/font/flaticon.css">
     </head>
@@ -19,7 +19,7 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm">
 
             <div class="container">
-                <a class="navbar-brand" href="#"><img class="logo" src="../assets/logo/logo%20v1.png" /></a>
+                <a class="navbar-brand" href="home.html"><img class="logo" src="../assets/logo/logo%20v1.png" /></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -34,36 +34,52 @@
 
         <section class="blue-strip inner-shadow"></section>
 
-        <!-- Hero -->
+        <section class="row">
 
-        <section class="container col-7 col-xl-4 my-container shadow">
-
-            <form class="text-center border border-light p-5">
-
-                <p class="h4 mb-5">جاب اونجا</p>
-
-                <input type="email" class="form-control p-4 mb-5" placeholder="ایمیل">
-
-                <input type="password" class="form-control p-4 mb-5" placeholder="رمز عبور">
-
-                <div class="d-flex justify-content-around">
-
-                    <div>
-                        <a href="">رمز عبور خود را فراموش کرده اید؟</a>
-                    </div>
-
-                    <div>
-                        <div class="custom-control custom-checkbox">
-                            <input type="checkbox" class="custom-control-input" id="rememberMe">
-                            <label class="custom-control-label" for="rememberMe">مرا به خاطر بسپار</label>
-                        </div>
-                    </div>
-
+            <section class="carousel container my-container col-12 col-xl-7 mb-5 shadow">
+                <div class="controls">
+                    <a href="#item1" class="btn">•</a>
+                    <a href="#item2" class="btn">•</a>
+                    <a href="#item3" class="btn">•</a>
+                    <a href="#item4" class="btn">•</a>
                 </div>
+                <div class="item slide-in" id="item1"><img src="../assets/images/software-developer-vector-12104903.jpg" /></div>
+                <div class="item slide-in" id="item2"><img src="../assets/images/software-development-vector-5647155.jpg" /></div>
+                <div class="item slide-in" id="item3"><img src="../assets/images/4.png" /></div>
+                <div class="item slide-in" id="item4"><img src="../assets/images/test-computer-key-in-blue-showing-quiz-or-online-questionnaire_fydJNNDu.jpg" /></div>
 
-                <button class="btn btn-info btn-block my-4" type="submit">ورود</button>
+            </section>
 
-            </form>
+            <section class="container col-7 col-xl-4 my-container mb-5 shadow">
+
+                <form class="text-center border border-light p-5">
+
+                    <p class="h4 mb-5">جاب اونجا</p>
+
+                    <input type="email" class="form-control p-4 mb-5" placeholder="ایمیل">
+
+                    <input type="password" class="form-control p-4 mb-5" placeholder="رمز عبور">
+
+                    <div class="d-flex justify-content-around">
+
+                        <div>
+                            <a href="">رمز عبور خود را فراموش کرده اید؟</a>
+                        </div>
+
+                        <div>
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="rememberMe">
+                                <label class="custom-control-label" for="rememberMe">مرا به خاطر بسپار</label>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <button class="btn btn-info btn-block my-4" type="submit">ورود</button>
+
+                </form>
+
+            </section>
 
         </section>
 
