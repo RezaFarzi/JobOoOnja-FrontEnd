@@ -27,6 +27,21 @@
     width: 40px;
     height: 35px;
 }
+
+.form-inline-input {
+    border-color: #00D3DF;
+    color: #00D3DF;
+}
+
+.form-inline-input input {
+    border-left: 0px solid transparent;
+}
+
+.form-inline-input .input-group-prepend .input-group-text{
+    background-color: transparent;
+    border-right: 0px solid transparent;
+}
+
 .blue-dashed-top-border {
     border-top: #00D3DF dashed 3px;
 }
@@ -44,6 +59,10 @@
     color: #008E3D;
 }
 
+.bid-deadline {
+    color: red;
+}
+
 .gray-text {
     color: #666666;
 }
@@ -51,6 +70,12 @@
 .gray-bold-text {
     color: #666666;
     font-weight: bold;
+}
+
+.black-bold-text {
+    color: black;
+    font-weight: bold;
+    font-size: 1.25rem;
 }
 
 .text-center {
