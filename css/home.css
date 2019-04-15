@@ -1,0 +1,136 @@
+
+.form-control-borderless {
+    border: none;
+}
+
+.form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.search-bar {
+    border: none;
+    border-radius: 0;
+    border-bottom: solid 0.25rem #00AEBF;
+    background-color: #D7F8FA;
+    margin-bottom: 90px;
+}
+
+.search-input {
+    background-color: #D7F8FA;
+    color: #6BADAF;
+}
+
+.search-input::placeholder {
+    color: #6BADAF;
+}
+
+.search-input:focus {
+    background-color: #D7F8FA;
+}
+
+.search-btn {
+    border-radius: 0;
+    background-color: #00AEBF;
+}
+
+.search-btn:hover {
+    background-color: #00AEBF;
+    color: #e1e1e1;
+}
+
+/*********************************************/
+
+.home-container {
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    position: relative;
+    top: -70px;
+}
+
+.projects-info {
+    /*flex-grow: 3;*/
+    display: flex;
+    flex-direction: column;
+}
+
+.project-info {
+    background-color: white;
+    margin: 0.5rem 0;
+    border-radius: 0.2rem;
+    padding: 1rem;
+}
+
+.project-info:first-child{
+    margin-top: 0;
+}
+
+.project-info:hover {
+    background-color: #f5f5f5;
+    /*opacity: 0.85;*/
+}
+
+.project-avatar {
+    border-radius: 0.25rem;
+    width: 8rem;
+    height: 8rem;
+}
+
+.project-time {
+    background-color: #F5F5F5;
+    color: gray;
+}
+
+.project-time-ended {
+    background-color: #3D8788;
+    color: white;
+    border-radius: 0.25rem
+}
+
+.project-skill {
+    font-weight: bold;
+    background-color:#F9F9F9;
+    color:#767676;
+    border: solid 0.5px #EDEDED;
+    border-radius: 3px;
+    padding: 3px 5px;
+    margin: 2px;
+}
+
+.user-search {
+    border-radius: 0.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.user-search-input {
+    border-radius: 0;
+    background-color: #F9F9F9;
+}
+
+.users-info {
+    /*flex-grow: 1;*/
+    display: flex;
+    flex-direction: column;
+}
+
+.user-info {
+    background-color: white;
+    margin: 0.15rem 0;
+    border-radius: 0.25rem;
+    padding: 0.25rem;
+}
+
+.user-info:last-child {
+    margin-bottom: 1.5rem;
+}
+
+.user-info:hover {
+    background-color: #f5f5f5;
+}
+
+.user-avatar {
+    border-radius: 0.25rem;
+    width: 3.5rem;
+    height: 3.25rem;
+}

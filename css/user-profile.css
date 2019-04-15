@@ -1,22 +1,27 @@
 .user-container {
-    background-color: #F6F6F6;
-    position: relative;
-    padding-top: 0;
-    padding-bottom: 5px;
+    margin-top: -70px;
 }
 
 .user-image {
     border: #F3F2F3 solid 10px;
     border-radius: 1.3rem;
-    width: 100%;
-    height: auto;
+    /*width: 100%;*/
+    /*height: auto;*/
     /*top: -100px;*/
 
-    position: absolute;
-    top:-55%;
-    bottom:0;
-    left:0;
-    right:0;
+    /*position: absolute;*/
+    /*top:-55%;*/
+    /*bottom:0;*/
+    /*left:0;*/
+    /*right:0;*/
+}
+
+.user-text {
+    align-self: flex-end;
+}
+
+.user-description {
+    line-height: 1.75rem;
 }
 
 .skills-container {
@@ -45,16 +50,16 @@
 .bold-black-text {
     color: rgba(39, 44, 48, 0.98);
     font-weight: bold;
-    margin: 0 0 0 0px;
+    margin: 0;
     text-align:center;
     padding: 5px;
+    align-self: center;
 }
 
 .selector-container {
-    color: #FFFFFF;
-    border: #F3F2F3 solid 1px;
     border-radius: 0.3rem;
     padding: 1px;
+    background-color: white;
 }
 
 .selector-list {

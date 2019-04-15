@@ -50,11 +50,6 @@
     border-bottom: lightgray solid 1px;
 }
 
-.bold-blue-text {
-    color: #00858D;
-    font-weight: bold;
-}
-
 .bid-success {
     color: #008E3D;
 }
@@ -63,19 +58,9 @@
     color: red;
 }
 
-.gray-text {
-    color: #666666;
-}
-
 .gray-bold-text {
     color: #666666;
     font-weight: bold;
-}
-
-.black-bold-text {
-    color: black;
-    font-weight: bold;
-    font-size: 1.25rem;
 }
 
 .text-center {
